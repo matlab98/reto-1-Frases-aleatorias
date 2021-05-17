@@ -1,5 +1,5 @@
-import Phrase from "./Phrase"
-import React from 'react'
+import Phrase from "../components/Phrase";
+import React from 'react';
 
 const App = () => {
     return (
@@ -9,4 +9,4 @@ const App = () => {
     )
 }
 
-export default App
+export default App;
