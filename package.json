@@ -1,0 +1,35 @@
+{
+  "name": "reto-1",
+  "version": "1.0.0",
+  "description": "Frases aleatorias",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matlab98/reto-1-Frases-aleatorias.git"
+  },
+  "author": "Hilder Arrieta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matlab98/reto-1-Frases-aleatorias/issues"
+  },
+  "homepage": "https://github.com/matlab98/reto-1-Frases-aleatorias#readme",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.2",
+    "@babel/preset-env": "^7.14.2",
+    "@babel/preset-react": "^7.13.13",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.2.4",
+    "html-loader": "^2.1.2",
+    "html-webpack-plugin": "^5.3.1",
+    "mini-css-extract-plugin": "^1.6.0",
+    "webpack-cli": "^4.7.0"
+  }
+}
