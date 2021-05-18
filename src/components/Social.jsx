@@ -43,10 +43,7 @@ class Social extends Component {
                                         <FontAwesomeIcon icon={faTwitter} />
                                     </StyledQuoteButton>
                                 </Col>
-                                <Col style={{ textAlign: "right" }}>
-                                    <StyledQuoteButton className="btn" id="new-quote" style={{ backgroundColor: `rgb(237, 187, 153)`, borderColor: `rgb(237, 187, 153)` }}
-                                        >New quote</StyledQuoteButton>
-                                </Col>
+                                
                             </Row>
                         )
                     })

@@ -11,6 +11,8 @@ import Phrase from '../components/Phrase';
 import Social from '../components/Social';
 import phrase from '../utils/phrase.json';
 
+import '../styles/format.css';
+
 const StyledContainer = styled(Container)`
     padding: 25% 50% 25%;
     @media (min-width: 320px) and (max-width: 480px) {
@@ -54,22 +56,24 @@ class App extends Component {
         this.randomPhrase()
     };
 
-    handleClick() {
-        console.log('Se hizo click');
-      }
     render() {
         console.log(this.state.quotes)
         return (
+            <div id="quote-box">
             <StyledContainer style={{
                 backgroundColor: `rgb(237, 187, 153)`
             }}>
                 <StyledCard fluid style={{ color: `${this.state.color}` }} id="quote-box">
-                <Phrase quote={this.state.quotes} />
-                
-                <Social quote={this.state.quotes} onClick={this.handleClick}/>
+                    <Phrase quote={this.state.quotes} />
 
+                    <Social quote={this.state.quotes} />
+                    <Col style={{ textAlign: "right" }}>
+                        <a className="btn" id="new-quote" style={{ backgroundColor: `rgb(237, 187, 153)`, borderColor: `rgb(237, 187, 153)` }}
+                        onClick={this.randomPhrase}>New quote</a>
+                    </Col>
                 </StyledCard>
             </StyledContainer>
+            </div>
         );
     }
 }
