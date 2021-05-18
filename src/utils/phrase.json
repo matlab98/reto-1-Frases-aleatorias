@@ -2,7 +2,8 @@
     {
         "id": 0,
         "phrase": "El único modo de hacer un gran trabajo es amar lo que haces.",
-        "author": "Steve Jobs"
+        "author": "Steve Jobs",
+        "color":"#D4E157"
     },
     {
         "id": 1,
@@ -17,151 +18,182 @@
     {
         "id": 3,
         "phrase": "Mi consejo es: nunca hagas mañana lo que puedes hacer hoy. La procrastinación es la ladrona del tiempo",
-        "author": "Charles Dickens"
+        "author": "Charles Dickens",
+        "color":"#9CCC65"
     },
     {
         "id": 4,
         "phrase": "Cuanto más duramente trabajo, más suerte tengo.",
-        "author": "Gary Player"
+        "author": "Gary Player",
+        "color":"#66BB6A"
     },
     {
         "id": 5,
         "phrase": "La inteligencia consiste no sólo en el conocimiento, sino también en la destreza de aplicar los conocimientos en la práctica.",
-        "author": "Aristóteles"
+        "author": "Aristóteles",
+        "color":"#26C6DA"
     },
     {
         "id": 6,
         "phrase": "Una mentira con interés puede ser destapada por una verdad aburrida.",
-        "author": "Aldous Huxley"
+        "author": "Aldous Huxley",
+        "color":"#5C6BC0"
     },
     {
         "id": 7,
         "phrase": "El trabajo duro hace que desaparezcan las arrugas de la mente y el espíritu.",
-        "author": "Helena Rubinstein"
+        "author": "Helena Rubinstein",
+        "color":"#7E57C2"
     },
     {
         "id": 8,
         "phrase": "Cuando algo es lo suficientemente importante, lo haces incluso si las probabilidades de que salga bien no te acompañan.",
-        "author": "Elon Musk"
+        "author": "Elon Musk",
+        "color":"#AB47BC"
+        
     },
     {
         "id": 9,
         "phrase": "Escoge un trabajo que te guste, y nunca tendrás que trabajar ni un solo día de tu vida.",
-        "author": "Confucio"
+        "author": "Confucio",
+        "color":"#7fecbe"
     },
     {
         "id": 10,
         "phrase": "Un sueño no se hace realidad por arte de magia, necesita sudor, determinación y trabajo duro.",
-        "author": "Colin Powell"
+        "author": "Colin Powell",
+        "color":"#EDBB99 "
     },
     {
         "id": 11,
         "phrase": "La lógica te llevará de la a a la z. la imaginación te llevará a cualquier lugar.",
-        "author": "Albert Einstein"
+        "author": "Albert Einstein",
+        "color":"#F5CBA7"
     },
     {
         "id": 12,
         "phrase": "A veces la adversidad es lo que necesitas encarar para ser exitoso",
-        "author": "Zig Ziglar"
+        "author": "Zig Ziglar",
+        "color":"#FAD7A0"
     },
     {
         "id": 13,
         "phrase": "Para tener éxito tu deseo de alcanzarlo debe ser mayor que tu miedo al fracaso.",
-        "author": "Bill Cosby"
+        "author": "Bill Cosby",
+        "color":"#ABEBC6"
     },
     {
         "id": 14,
         "phrase": "El sol es débil cuando se eleva primero, y cobra fuerza y coraje a medida que avanza el día.",
-        "author": "Vieja tienda de curiosidades, Charles Dickens"
+        "author": "Vieja tienda de curiosidades, Charles Dickens",
+        "color":"#A9DFBF"
     },
     {
         "id": 15,
         "phrase": "Recuerda: no eres torpe, no importa lo que digan esos libros. Los torpes de verdad son gente que, creyéndose expertos técnicos, no podrían diseñar hardware y software manejable por usuarios normales aunque la vida les fuera en ello.",
-        "author": "Walter Mossberg"
+        "author": "Walter Mossberg",
+        "color":"#A2D9CE"
     },
     {
         "id": 16,
         "phrase": "Los proveedores de software están intentando hacer sus productos más amigables para el usuario. Su mejor aproximación hasta el momento ha sido tomar sus antiguos folletos y estampar las palabras 'amigable para el usuario' en la portada.",
-        "author": "Bill Gates"
+        "author": "Bill Gates",
+        "color":"#A3E4D7"
     },
     {
         "id": 17,
         "phrase": "La programación es una carrera entre los desarrolladores, intentando construir mayores y mejores programas a prueba de idiotas, y el universo, intentanto producir mayores y mejores idiotas. Por ahora va ganando el Universo.",
-        "author": "Rich Cook"
+        "author": "Rich Cook",
+        "color":"#A9CCE3"
     },
     {
         "id": 18,
         "phrase": "Cuando pierdas, no pierdas la lección.",
-        "author": "Dalai Lama"
+        "author": "Dalai Lama",
+        "color":"#D2B4DE"
     },
     {
         "id": 19,
         "phrase": "No busques los errores, busca un remedio.",
-        "author": "Henry Ford"
+        "author": "Henry Ford",
+        "color":"#F5B7B1"
     },
     {
         "id": 20,
         "phrase": "La vida es una aventura, atrévete.",
-        "author": "Teresa de Calcuta"
+        "author": "Teresa de Calcuta",
+        "color":"#CD6155"
     },
     {
         "id": 21,
         "phrase": "Tu actitud, no tu aptitud, determinará tu altitud.",
-        "author": "Zig Ziglar"
+        "author": "Zig Ziglar",
+        "color":"#AF7AC5"
     },
     {
         "id": 22,
         "phrase": "Si no pierdes, no puedes disfrutar de las victorias.",
-        "author": "Rafael Nadal"
+        "author": "Rafael Nadal",
+        "color":"#A569BD"
     },
     {
         "id": 23,
         "phrase": "Si la oportunidad no llama, construye una puerta.",
-        "author": "Milton Berle"
+        "author": "Milton Berle",
+        "color":"#5499C7"
     },
     {
         "id": 24,
         "phrase": "Primero aprende informática y toda la teoría. Después desarrolla un estilo de programación. Entonces, olvídalo todo y hackea.",
-        "author": "George Carrette"
+        "author": "George Carrette",
+        "color":"#5DADE2"
     },
     {
         "id": 25,
         "phrase": "Si buscas la perfección nunca estarás contento.",
-        "author": "Anna Karenina, Leo Tolstoy"
+        "author": "Anna Karenina, Leo Tolstoy",
+        "color":"#45B39D"
     },
     {
         "id": 26,
         "phrase": "No dejes que el miedo se interponga en tu camino.",
-        "author": "Babe Ruth"
+        "author": "Babe Ruth",
+        "color":"#52BE80"
     },
     {
         "id": 27,
         "phrase": "El misterio de la vida no es un problema a resolver, sino una realidad a experimentar.",
-        "author": "Duna, Frank Herbert"
+        "author": "Duna, Frank Herbert",
+        "color":"#F4D03F "
     },
     {
         "id": 28,
         "phrase": "No hay lenguaje de programación, no importa su estructura, que impida que los programadores hagan malos programas.",
-        "author": "Larry Flon"
+        "author": "Larry Flon",
+        "color":"#F5B041"
     },
     {
         "id": 29,
         "phrase": "Tienes que hacer las cosas que crees que no puedes hacer.",
-        "author": "Eleanor Roosevelt"
+        "author": "Eleanor Roosevelt",
+        "color":"#EB984E"
     },
     {
         "id": 30,
         "phrase": "Cometer errores es humano, pero para estropear realmente las cosas necesitas un ordenador.",
-        "author": "- Paul Ehrlich"
+        "author": "- Paul Ehrlich",
+        "color":"#DC7633"
     },
     {
         "id": 31,
         "phrase": "La mejor parte de la programación es el punto exacto donde tienes un problema y lo resuelves en tu mente sin complicaciones.",
-        "author": "J. Manuel Zea"
+        "author": "J. Manuel Zea",
+        "color":"#873600"
     },
     {
         "id": 32,
         "phrase": "¡No me importa si funciona en tu máquina! ¡No estamos vendiendo tu máquina!",
-        "author": "Vidiu Platon"
+        "author": "Vidiu Platon",
+        "color":"#922B21"
     }
 ]

@@ -42,14 +42,16 @@ class App extends Component {
     constructor() {
         super();
         this.state = {
-            quotes: [{}]
+            quotes: [],
+            color: ""
         };
     };
 
     randomPhrase = () => {
         const numRandom = Math.round(Math.random() * phrase.length-1);
         this.setState({
-            quotes: [phrase[numRandom]]
+            quotes: [phrase[numRandom]],
+            color: phrase[numRandom]["color"]
         })
     };
 
@@ -58,18 +60,17 @@ class App extends Component {
     };
 
     render() {
-        console.log(this.state.quotes)
         return (
             <div id="quote-box">
             <StyledContainer style={{
-                backgroundColor: `rgb(237, 187, 153)`
+                backgroundColor: `${this.state.color}`
             }}>
                 <StyledCard fluid style={{ color: `${this.state.color}` }} id="quote-box">
                     <Phrase quote={this.state.quotes} />
                     <Row style={{ marginTop: "30px" }}>
                     <Social quote={this.state.quotes} />
                     <Col style={{ textAlign: "right" }}>
-                        <a style={{ backgroundColor: "rgb(237, 187, 153)", borderColor: "rgb(237, 187, 153)", marginRight:"5px" }} className="btn" id="new-quote" 
+                        <a style={{ backgroundColor: `${this.state.color}`, borderColor: `${this.state.color}`, marginRight:"5px" }} className="btn" id="new-quote" 
                         onClick={this.randomPhrase}>New quote</a>
                     </Col>
                     </Row>
