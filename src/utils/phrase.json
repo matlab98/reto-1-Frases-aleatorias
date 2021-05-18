@@ -127,7 +127,7 @@
     {
         "id": 25,
         "phrase": "Si buscas la perfección nunca estarás contento.",
-        "author": "- Anna Karenina, Leo Tolstoy"
+        "author": "Anna Karenina, Leo Tolstoy"
     },
     {
         "id": 26,
@@ -137,7 +137,7 @@
     {
         "id": 27,
         "phrase": "El misterio de la vida no es un problema a resolver, sino una realidad a experimentar.",
-        "author": "- Duna, Frank Herbert"
+        "author": "Duna, Frank Herbert"
     },
     {
         "id": 28,
@@ -157,11 +157,11 @@
     {
         "id": 31,
         "phrase": "La mejor parte de la programación es el punto exacto donde tienes un problema y lo resuelves en tu mente sin complicaciones.",
-        "author": "- J. Manuel Zea"
+        "author": "J. Manuel Zea"
     },
     {
         "id": 32,
         "phrase": "¡No me importa si funciona en tu máquina! ¡No estamos vendiendo tu máquina!",
-        "author": "- Vidiu Platon"
+        "author": "Vidiu Platon"
     }
 ]

@@ -1,6 +1,10 @@
-import React from 'react';
+import React, { Component } from "react";
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import phrase from '../utils/phrase.json'
+import styled, { css } from 'styled-components';
+import { Col, Container, Jumbotron, Row } from 'react-bootstrap';
+import { faQuoteLeft } from '@fortawesome/free-solid-svg-icons';
+
 const StyledQuoteText = styled.div`
     font-family: "Raleway", sans-serif;
     text-align: center;
@@ -12,51 +16,46 @@ const StyledQuoteText = styled.div`
 const StyledQuoteAuthor = styled.div`
 font-family: "Raleway", sans-serif;
 text-align: right;
-width: 40px;
 height: auto;
 font-weight: 400;
 font-size: 1em;
-clear: both;
 padding-top: 20px;
 `;
 
 class Phrase extends Component {
-    constructor(props) {
-        super(props)
+
+    constructor() {
+        super();
         this.state = {
             phrase: "",
             author: ""
-        }
+        };
     }
-
-    randomPhrase = () => {
-        const numRandom = Math.round(Math.random() * phrase.length);
-        this.setState({
-            phrase: phrase[numRandom]["phrase"],
-            author: phrase[numRandom]["author"]
-        })
-    };
-
-    componentDidMount() {
-        this.randomPhrase()
-    }
-
 
     render() {
+        const { quote } = this.props;
         return (
-            <Container>
-                <StyledQuoteText id="quote">
-                    <FontAwesomeIcon icon={faQuoteLeft} style={{ marginRight: "10px" }} />
-                    <span>
-                        {this.state.phrase}
-                    </span>
-                </StyledQuoteText>
-                <StyledQuoteAuthor id="author">
-                    {this.state.author}
-                </StyledQuoteAuthor>
-            </Container>
-        )
+            <div id="quote-box">
+                {
+                    quote.map((item) => {
+                        return (
+                            <Container>
+                                <StyledQuoteText id="text">
+                                    <FontAwesomeIcon icon={faQuoteLeft} style={{ marginRight: "10px" }} />
+                                    <span>
+                                        {item.phrase}
+                                    </span>
+                                </StyledQuoteText>
+                                <StyledQuoteAuthor id="author">
+                                      - {item.author}
+                                </StyledQuoteAuthor>
+                            </Container>
+                        )
+                    })
+                }
+            </div>
+        );
     }
-};
+}
 
-export default Phrase;
+export default Phrase
