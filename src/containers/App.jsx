@@ -36,6 +36,7 @@ const StyledCard = styled(Jumbotron)`
     width: auto;
     }
 `;
+
 class App extends Component {
 
     constructor() {
@@ -46,7 +47,7 @@ class App extends Component {
     };
 
     randomPhrase = () => {
-        const numRandom = Math.round(Math.random() * phrase.length);
+        const numRandom = Math.round(Math.random() * phrase.length-1);
         this.setState({
             quotes: [phrase[numRandom]]
         })
@@ -65,12 +66,13 @@ class App extends Component {
             }}>
                 <StyledCard fluid style={{ color: `${this.state.color}` }} id="quote-box">
                     <Phrase quote={this.state.quotes} />
-
+                    <Row style={{ marginTop: "30px" }}>
                     <Social quote={this.state.quotes} />
                     <Col style={{ textAlign: "right" }}>
-                        <a className="btn" id="new-quote" style={{ backgroundColor: `rgb(237, 187, 153)`, borderColor: `rgb(237, 187, 153)` }}
+                        <a style={{ backgroundColor: "rgb(237, 187, 153)", borderColor: "rgb(237, 187, 153)", marginRight:"5px" }} className="btn" id="new-quote" 
                         onClick={this.randomPhrase}>New quote</a>
                     </Col>
+                    </Row>
                 </StyledCard>
             </StyledContainer>
             </div>
