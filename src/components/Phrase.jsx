@@ -47,7 +47,7 @@ class Phrase extends Component {
                                     </span>
                                 </StyledQuoteText>
                                 <StyledQuoteAuthor id="author">
-                                      - {item.author}
+                                    - {item.author}
                                 </StyledQuoteAuthor>
                             </Container>
                         )
