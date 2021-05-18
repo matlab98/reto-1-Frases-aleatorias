@@ -34,7 +34,7 @@ class Social extends Component {
                                     href={`https://twitter.com/intent/tweet/?text="${item.phrase} - ${item.author}"&hashtags=SuperacionPersonal`} target="_blanck">
                                     <FontAwesomeIcon icon={faTwitter} />
                                 </a>
-                                <a className="btn" id="tweet-quote" style={{ backgroundColor: `${item.color}`, borderColor: `${item.color}`, marginRight: "5px" }}
+                                <a className="btn" style={{ backgroundColor: `${item.color}`, borderColor: `${item.color}`, marginRight: "5px" }}
                                     href={`https://www.tumblr.com/widgets/share/tool?posttype=quote&tags=quotes&caption="- ${item.author}&content=${item.phrase} ".&canonicalUrl=https%3A%2F%2Fwww.tumblr.com%2Fbuttons&shareSource=tumblr_share_button`} target="_blanck">
                                     <FontAwesomeIcon icon={faTumblr} />
                                 </a>

@@ -8,12 +8,15 @@
     {
         "id": 1,
         "phrase": "Nunca pienso en las consecuencias de fallar un gran tiro… cuando se piensa en las consecuencias se está pensando en un resultado negativo.",
-        "author": "Michael Jordan"
+        "author": "Michael Jordan",
+        "color": "#AB47BC"
+
     },
     {
         "id": 2,
         "phrase": "El dinero no es la clave del éxito; la libertad para poder crear lo es.",
-        "author": "Nelson Mandela"
+        "author": "Nelson Mandela",
+        "color": "#F5CBA7"
     },
     {
         "id": 3,

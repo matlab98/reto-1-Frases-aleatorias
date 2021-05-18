@@ -19,7 +19,7 @@
   "bugs": {
     "url": "https://github.com/matlab98/reto-1-Frases-aleatorias/issues"
   },
-  "homepage": "https://github.com/matlab98/S2_reto_1_AG",
+  "homepage": "https://github.com/matlab98/reto-1-Frases-aleatorias",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.3",
     "@fortawesome/fontawesome-svg-core": "^1.2.35",
